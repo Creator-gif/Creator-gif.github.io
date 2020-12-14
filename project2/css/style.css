@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%; 
+    font-family: 'Marck Script', cursive;
+}
+body {
+    background-color: rgba(223, 223, 223, 0.925);
+}
+main {
+    width: 70%;
+    margin: 10px auto;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 3px;
+}
+.img {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.4s ease;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+
+}
+.img:hover {
+    transform: rotate(1.1deg) scale(1.07);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+}
+#img1 {
+    background-image: url(../img/face.jpg)   
+}    
+#img2 {
+    background-image: url(../img/DaviddeMichelangelo.jpg)   
+}    
+#img3 {
+    background-image: url(../img/edvardmunkkrik.jpg)   
+}    
+#img4 {
+    background-image: url(../img/Girl.jpg)   
+}    
+#img5 {
+    background-image: url(../img/vase.jpg)   
+}    
+#img6 {
+    background-image: url(../img/MonaLiza.jpg)   
+}    
+#img7 {
+    background-image: url(../img/photo.jpg)   
+}    
+#img8 {
+    background-image: url(../img/sculpture.jpg)   
+}    
+#img9 {
+    background-image: url(../img/sculpture2.jpg)   
+}    
+#img10 {
+    background-image: url(../img/vase2.jpg)   
+}    
+#img11 {
+    background-image: url(../img/rain.jpg)   
+}    
+#img12 {
+    background-image: url(../img/thinker.jpg)   
+}   
+
+
+   
+
+
