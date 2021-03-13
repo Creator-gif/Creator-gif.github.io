@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    user-select: none; /* свойство которое не позволяет выделить объект*/
+    overflow: hidden;
+    font-family: 'Play', sans-serif;
+}
+#count {
+    position: absolute;
+    right: 50px;
+    z-index: 1;
+    text-align: center;
+    font-size:70px ;
+    color: gold;
+    text-shadow: 2px 2px 0 rgb(221, 121, 28);
+    font-weight: bold;
+}
+#timer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 5;
+    font-size:70px ;
+    color: gold;
+    text-shadow: 2px 2px 0 rgb(221, 121, 28);
+    font-weight: bold;  
+}
+#block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    background-color: #78ffd6;
+}
+#text {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    background-color: black;
+    background: linear-gradient(to right,#0F2027, #203A43, #2C5364); 
+    color: gold;
+    text-shadow: 3px 3px 4px rgb(221, 121, 28);
+    font-size: 90px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+#newgame {
+    height: 75px;
+    width: 220px;
+    background-color: transparent;
+    color: gold;
+    border: 4px solid gold;
+    border-radius: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.23s ease;
+    
+}
+#newgame:hover {
+    transform:  rotate(0deg) scale(1.05);;
+}
+.circle {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+существует свойство position которое 
+определяет позицию элемента в окне бразера.
+существует несколько видов :
+1) absolute - вид при котором 
+2) relative
+3) fixed
+
+z-index позволяет определять положение объекта на определенном слое.
+В HTML их(слоёв) может быть бесконечное множество.
