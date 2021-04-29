@@ -73,6 +73,28 @@ html, body {
 .circle {
     border-radius: 50%;
 }
+@media (max-width: 480px) {
+    #count {
+        font-size:50px ;  
+    }
+    #timer {
+        font-size:50px ;
+    }
+    #block {
+        width: 80px;
+        height: 80px;
+    }
+    #text {      
+        font-size: 50px;
+    }
+    #newgame {
+        height: 45px;
+        width: 190px; 
+        border-radius: 2.5px;
+        font-size: 25px;
+    }
+
+}
 
 
 
