@@ -4,7 +4,7 @@
 }
 html, body {
     height: 100%;
-    user-select: none; /* свойство которое не позволяет выделить объект*/
+    user-select: none; 
     overflow: hidden;
     font-family: 'Play', sans-serif;
 }
@@ -45,7 +45,7 @@ html, body {
     z-index: 10;
     height: 100%;
     background-color: black;
-    background: linear-gradient(to right,#0F2027, #203A43, #2C5364); 
+    background: white; 
     color: gold;
     text-shadow: 3px 3px 4px rgb(221, 121, 28);
     font-size: 90px;
@@ -83,13 +83,3 @@ html, body {
 
 
 
-/*
-существует свойство position которое 
-определяет позицию элемента в окне бразера.
-существует несколько видов :
-1) absolute - вид при котором 
-2) relative
-3) fixed
-
-z-index позволяет определять положение объекта на определенном слое.
-В HTML их(слоёв) может быть бесконечное множество.
